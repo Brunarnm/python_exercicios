@@ -116,6 +116,11 @@ print("O terceiro número elevado ao cubo é", str(z)+".\n")
 
 #12. Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
 
+h = float(input("Informe a sua altura: \n"))
+
+m = (72.7 * h) - 58
+
+print("Seu peso ideal é "+ str(m) + " kg.")
 
 #13. Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 #Para homens: (72.7*h) - 58
